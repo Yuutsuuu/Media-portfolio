@@ -520,3 +520,87 @@ nav {
     max-width: 600px;
   }
 }
+
+/* For tablets and below (768px) */
+@media (max-width: 768px) {
+  .section__header {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-align: center;
+  }
+
+  .about__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .portfolio__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio__overlay {
+    padding: 1rem;
+  }
+
+  .blog__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .header__socials {
+    display: none; /* Hide rotated socials on small screens */
+  }
+
+  .header__content {
+    padding: 1rem;
+  }
+}
+
+/* For mobile devices (480px and below) */
+@media (max-width: 480px) {
+  .section__header {
+    font-size: 1.5rem;
+  }
+
+  .header__content .section__header {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .nav__links {
+    width: 90%;
+    right: 5%;
+  }
+
+  .portfolio__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__card {
+    aspect-ratio: auto;
+  }
+
+  .about__image img {
+    max-width: 80%;
+  }
+}
+
+/* Fix blog cards layout for small screens */
+@media (max-width: 768px) {
+  .blog__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    justify-items: center; /* center the single card */
+  }
+
+  .blog__card {
+    width: 90%;
+  }
+}

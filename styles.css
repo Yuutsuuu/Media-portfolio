@@ -460,7 +460,8 @@ nav {
 
 
 /* Responsive */
-@media (width > 768px) {
+/* Responsive for tablets and above */
+@media (min-width: 768px) {
   .nav__links {
     position: static;
     padding: 0;
@@ -482,6 +483,7 @@ nav {
   }
 
   .about__container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 10rem 2rem;
@@ -504,5 +506,17 @@ nav {
 
   .gallery__grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Extra large screens (optional) */
+@media (min-width: 1200px) {
+  .header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .about__content {
+    max-width: 600px;
   }
 }

@@ -460,7 +460,7 @@ nav {
 
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (width > 768px) {
   .nav__links {
     position: static;
     padding: 0;

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Marcus' media portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <nav>
+        <div class="nav__bar">
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#gallery">My gallery</a></li>
+          </ul>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+
+        </div>
+      </nav>
+
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h3 class="section__subheader">Welcome</h3>
+          <h1 class="section__header">
+            Here's everything that I have learned for media.
+          </h1>
+          <div class="header__socials">
+            <span>Explore my instagram here -></span>
+            <a href="https://www.instagram.com/film._.archives/"><i class="ri-instagram-line"></i></a>
+            <a href="https://sg.linkedin.com/in/marcus-wong-0788242aa"><i class="ri-linkedin-box-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="section__container about__container">
+        <div class="about__image about__image-1" id="about">
+          <img src="Images/profile.jpg" alt="about" />
+        </div>
+        <div class="about__content about__content-1">
+          <h3 class="section__subheader"></h3>
+          <h2 class="section__header">About me</h2>
+          <p>
+            My name is Marcus and I am currently a year 3 Computer Engineering student in Temasek Polytechnic.
+            In this portfolio that I made, I will be showcasing some things that I have done and learned along the way.
+            My interest towards media stems from videography and photography, especially lifestyle focus. From there,
+            I decided to pick up Adobe software such as Photoshop and Premiere Pro. Although this
+            may not be what my major is, this is one of my hobbies that I enjoy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+   <section class="portfolio" id="portfolio">
+  <div class="section__container portfolio__container">
+    <p class="section__subheader"></p>
+    <h2 class="section__header">My works</h2>
+    <div class="portfolio__nav">
+      <button class="btn mixitup-control-active" data-filter="all">All</button>
+      <button class="btn" data-filter=".photo">Photography</button>
+      <button class="btn" data-filter=".video">Videography</button>
+      <button class="btn" data-filter=".design">Designs</button>
+    </div>
+    <div class="portfolio__grid">
+      <div class="portfolio__card mix photo">
+        <div class="portfolio__image">
+          <img src="Images/Kyoto.jpg" alt="Kyoto Photography" />
+          <div class="portfolio__overlay">
+            <h4>Kyoto</h4>
+            <p>Japan</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__card mix video">
+        <div class="portfolio__image">
+          <img src="Images/edit.jpg" alt="Video Editing" />
+          <div class="portfolio__overlay">
+            <h4>Video Project</h4>
+            <p>Capcut edit for GS</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__card mix design">
+        <div class="portfolio__image">
+          <img src="Images/Gs.jpg" alt="Graphic Design" />
+          <div class="portfolio__overlay">
+            <h4>Graphic Design</h4>
+            <p>Infographic Poster</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__card mix photo">
+        <div class="portfolio__image">
+          <img src="Images/Seoul.jpg" alt="Seoul Photography" />
+          <div class="portfolio__overlay">
+            <h4>Seoul</h4>
+            <p>Korea</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__card mix photo">
+        <div class="portfolio__image">
+          <img src="Images/Bali2.jpg" alt="Bali Photography" />
+          <div class="portfolio__overlay">
+            <h4>Bali</h4>
+            <p>Indonesia</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__card mix design">
+        <div class="portfolio__image">
+          <img src="Images/pic.jpg" alt="Editorial Design" />
+          <div class="portfolio__overlay">
+            <h4>Editorial</h4>
+            <p>Magazine Layout</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="blog">
+      <div class="section__container blog__container">
+        <h3 class="section__subheader"></h3>
+        <h2 class="section__header">Some media insights to explore!</h2>
+        <div class="blog__grid">
+          <div class="blog__card">
+            <img src="Images/composition.png" alt="blog" />
+            <div class="blog__content">
+              <h4>28 Composition Techniques That Will Improve Your Photos</h4>
+              <button class="btn">
+              <a href="https://petapixel.com/photography-composition-techniques/" target="_blank" rel="noopener noreferrer">
+                Read More
+                <span><i class="ri-arrow-right-long-line"></i></span>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="blog__card">
+            <img src="Images/AvsB.png" alt="blog" />
+            <div class="blog__content">
+              <h4>Filmmaking 101: A-Roll vs B-Roll Footage</h4>
+              <button class="btn">
+              <a href="https://boords.com/blog/filmmaking-101-a-roll-vs-b-roll-footage/" target="_blank" rel="noopener noreferrer">
+                Read More
+                <span><i class="ri-arrow-right-long-line"></i></span>
+              </a>
+              </button>
+            </div>
+          </div>
+          <div class="blog__card">
+            <img src="Images/color_grading.png" alt="blog" />
+            <div class="blog__content">
+              <h4>What Are the Basics of Color Grading?</h4>
+              <button class="btn">
+              <a href="https://nofilmschool.com/color-grading" target="_blank" rel="noopener noreferrer">
+                Read More
+                <span><i class="ri-arrow-right-long-line"></i></span>
+              </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="blog__btn">
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
